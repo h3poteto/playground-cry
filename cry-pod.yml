@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cry-pod
+  namespace: cry
+  labels:
+    name: cry
+    role: go
+spec:
+  containers:
+    - image: h3poteto/playground-cry:latest
+      name: cry
