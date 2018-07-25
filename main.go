@@ -8,6 +8,6 @@ import (
 func main() {
 	for {
 		log.Println("cry")
-		time.Sleep(10 * time.Second)
+		time.Sleep(1 * time.Millisecond)
 	}
 }
